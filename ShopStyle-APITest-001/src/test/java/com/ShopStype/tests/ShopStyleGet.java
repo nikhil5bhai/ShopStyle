@@ -16,7 +16,7 @@ import org.json.JSONObject;
 import static com.jayway.restassured.RestAssured.*;
 
 public class ShopStyleGet {
-	int jmax = 100; // jmax is maximum number of page starting from 1 which can be edited by user
+	int jmax = 10; // jmax is maximum number of page starting from 1 which can be edited by user
 
 	@Test
 	public void hdTrue() {
